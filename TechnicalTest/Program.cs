@@ -28,6 +28,8 @@ namespace TechnicalTest
             var VehicleType = "truck";
             VehicleWork.VehicleWorkResolve(VehicleType);
 
+            //Part3
+
 
         }
     }
