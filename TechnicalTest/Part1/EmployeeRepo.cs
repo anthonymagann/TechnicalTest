@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace TechnicalTest.Part1
 {
@@ -15,5 +16,26 @@ namespace TechnicalTest.Part1
         {
             return Employees;
         }
+
+        public bool AddEmployee(Employee employee)
+        {
+            if (employee == null || Employees.Any(x => x.EmployeeID == employee.EmployeeID))
+                return false;
+
+            Employees.Add(employee);
+
+            return true;
+        }
+
+        public bool AddEmployee(List<Employee> employees)
+        {
+            if (!employees.Any())
+                return false;
+
+            Employees.AddRange(employees);
+
+            return true;
+        }
+
     }
 }
