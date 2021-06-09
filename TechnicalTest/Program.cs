@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using TechnicalTest.Part1;
+using TechnicalTest.Part2;
 
 namespace TechnicalTest
 {
@@ -22,6 +23,10 @@ namespace TechnicalTest
             var employee = staff.GetEmployee(1);
             var Employees = staff.GetOrderedEmployeeArray();
 
+
+            //Part 2
+            var VehicleType = "truck";
+            VehicleWork.VehicleWorkResolve(VehicleType);
 
 
         }
