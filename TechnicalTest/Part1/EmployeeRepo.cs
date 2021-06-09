@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace TechnicalTest.Part1
 {
-    public class EmployeeRepo
+    public class EmployeeRepo : IEmployeeRepo
     {
         private List<Employee> Employees { get; }
 
@@ -12,14 +13,14 @@ namespace TechnicalTest.Part1
             Employees = new List<Employee>();
         }
 
-        public List<Employee> GetEmployees()
+        private IEnumerable<Employee> GetEmployees()
         {
-            return Employees;
+            return Employees?.OrderBy(x => x.EmployeeID);
         }
 
         public bool AddEmployee(Employee employee)
         {
-            if (employee == null || Employees.Any(x => x.EmployeeID == employee.EmployeeID))
+            if (employee == null)
                 return false;
 
             Employees.Add(employee);
@@ -36,6 +37,13 @@ namespace TechnicalTest.Part1
 
             return true;
         }
+
+        public Employee GetEmployee(int employeeId)
+        {
+            return Employees?.FirstOrDefault(x => x.EmployeeID == employeeId);
+        }
+
+        public Array GetOrderedEmployeeArray() => GetEmployees().ToArray();
 
     }
 }

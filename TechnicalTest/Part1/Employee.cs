@@ -1,10 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TechnicalTest.Part1
+﻿namespace TechnicalTest.Part1
 {
-    class Employee
+    public class Employee
     {
+        public int EmployeeID;
+        public string FirstName;
+        public string LastName;
+
+        public Employee(int employeeID, string firstName, string lastName)
+        {
+            EmployeeID = employeeID;
+            FirstName = firstName;
+            LastName = lastName;
+        }
+
     }
 }

@@ -11,3 +11,16 @@ C:\Users\Anthony\Desktop\TechnicalTest\TechnicalTest\obj\Debug\netcoreapp3.1\Tec
 C:\Users\Anthony\Desktop\TechnicalTest\TechnicalTest\obj\Debug\netcoreapp3.1\TechnicalTest.dll
 C:\Users\Anthony\Desktop\TechnicalTest\TechnicalTest\obj\Debug\netcoreapp3.1\TechnicalTest.pdb
 C:\Users\Anthony\Desktop\TechnicalTest\TechnicalTest\obj\Debug\netcoreapp3.1\TechnicalTest.genruntimeconfig.cache
+D:\Job\TechnicalTest\TechnicalTest\bin\Debug\netcoreapp3.1\TechnicalTest.exe
+D:\Job\TechnicalTest\TechnicalTest\bin\Debug\netcoreapp3.1\TechnicalTest.deps.json
+D:\Job\TechnicalTest\TechnicalTest\bin\Debug\netcoreapp3.1\TechnicalTest.runtimeconfig.json
+D:\Job\TechnicalTest\TechnicalTest\bin\Debug\netcoreapp3.1\TechnicalTest.runtimeconfig.dev.json
+D:\Job\TechnicalTest\TechnicalTest\bin\Debug\netcoreapp3.1\TechnicalTest.dll
+D:\Job\TechnicalTest\TechnicalTest\bin\Debug\netcoreapp3.1\TechnicalTest.pdb
+D:\Job\TechnicalTest\TechnicalTest\obj\Debug\netcoreapp3.1\TechnicalTest.csprojAssemblyReference.cache
+D:\Job\TechnicalTest\TechnicalTest\obj\Debug\netcoreapp3.1\TechnicalTest.AssemblyInfoInputs.cache
+D:\Job\TechnicalTest\TechnicalTest\obj\Debug\netcoreapp3.1\TechnicalTest.AssemblyInfo.cs
+D:\Job\TechnicalTest\TechnicalTest\obj\Debug\netcoreapp3.1\TechnicalTest.csproj.CoreCompileInputs.cache
+D:\Job\TechnicalTest\TechnicalTest\obj\Debug\netcoreapp3.1\TechnicalTest.dll
+D:\Job\TechnicalTest\TechnicalTest\obj\Debug\netcoreapp3.1\TechnicalTest.pdb
+D:\Job\TechnicalTest\TechnicalTest\obj\Debug\netcoreapp3.1\TechnicalTest.genruntimeconfig.cache
