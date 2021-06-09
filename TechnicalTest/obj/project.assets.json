@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anthony\\Source\\Repos\\TechnicalTest\\TechnicalTest\\TechnicalTest.csproj",
+      "projectUniqueName": "D:\\Job\\TechnicalTest\\TechnicalTest\\TechnicalTest.csproj",
       "projectName": "TechnicalTest",
-      "projectPath": "C:\\Users\\Anthony\\Source\\Repos\\TechnicalTest\\TechnicalTest\\TechnicalTest.csproj",
+      "projectPath": "D:\\Job\\TechnicalTest\\TechnicalTest\\TechnicalTest.csproj",
       "packagesPath": "C:\\Users\\Anthony\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anthony\\Source\\Repos\\TechnicalTest\\TechnicalTest\\obj\\",
+      "outputPath": "D:\\Job\\TechnicalTest\\TechnicalTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
