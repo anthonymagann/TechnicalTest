@@ -44,6 +44,5 @@ namespace TechnicalTest.Part1
         }
 
         public Array GetOrderedEmployeeArray() => GetEmployees().ToArray();
-
     }
 }

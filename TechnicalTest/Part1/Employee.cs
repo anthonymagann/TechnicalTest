@@ -12,6 +12,5 @@
             FirstName = firstName;
             LastName = lastName;
         }
-
     }
 }

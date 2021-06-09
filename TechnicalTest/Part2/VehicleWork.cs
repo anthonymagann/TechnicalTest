@@ -37,7 +37,5 @@ namespace TechnicalTest.Part2
         {
             Console.WriteLine("Some Train specific logic here");
         }
-
-
     }
 }

@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using TechnicalTest.Part1;
 using TechnicalTest.Part2;
+using TechnicalTest.Part3;
 
 namespace TechnicalTest
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             Console.WriteLine("Tech Test!");
 
@@ -19,18 +20,24 @@ namespace TechnicalTest
                   new Employee(1, "Anthony", "Magann")
                 });
 
-
             var employee = staff.GetEmployee(1);
-            var Employees = staff.GetOrderedEmployeeArray();
-
+            var employees = staff.GetOrderedEmployeeArray();
 
             //Part 2
             var VehicleType = "truck";
             VehicleWork.VehicleWorkResolve(VehicleType);
 
-            //Part3
+            //Part 3
+            var products = new List<Product>
+            {
+                new Product {Id = new Guid(), Price = 34.00m},
+                new Product {Id = new Guid(), Price = 1.00m}
+            };
 
-
+            ILocalizationInfo localInfo = new LocalizationInfo();
+            ICartTotal cart = new CartTotal();
+            var total = cart.Calculate(products, localInfo);
+            Console.WriteLine("Total {0}", total);
         }
     }
 }
